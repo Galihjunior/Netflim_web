@@ -1,0 +1,126 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.custom-hr{
+    border: none;
+    border-top: 2px solid #fff;
+    width: 100%;
+    margin: 30px auto;
+}
+.marquee{
+    width: 100%;
+    margin-top: 50px;
+}
+.login-box {
+    background: rgba(20, 20, 20, 0.95);
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.08);
+    max-width: 350px;
+    width: 100%;
+    align-content: center;
+}
+.logo-title{
+ color: #e50914;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+   
+.welcome {
+    color: #fff;
+    background: transparent;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+.login-title {
+    color: #e50914;
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+}
+.input-group {
+    margin-bottom: 18px;
+}
+.input-group label {
+    color: #fff;
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 5px;
+}
+.input-group input {
+    width: 100%;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 4px;
+    background: #222;
+    color: #fff;
+    font-size: 1rem;
+}
+.input-group input:focus {
+    outline: 2px solid #e50914;
+}
+.btn-masuk {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    background: #e50914;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.2s;
+    margin-bottom: 18px;
+}
+.btn-masuk:hover {
+    background: #b0060f;
+    color: #fff;
+}
+button[type="submit"]:hover {
+    background: #b0060f;
+}
+.register-info {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.register-link {
+    color: #e50914;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+.register-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+hr {
+    border: 0;
+    border-top: 2px solid #fff;
+    width: 90%;
+    margin-bottom: 30px;
+}
+.marquee {
+    width: 100
+}
